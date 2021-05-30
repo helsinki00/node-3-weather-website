@@ -73,14 +73,14 @@ app.get('/weather', (req, res) => {
     })
 })
 
-app.get('*', (req, res) => {
-    res.render('404', {
-        title: "error",
-        name: "shivam",
-        errorMessage: "message 404 not found"
+// app.get('*', (req, res) => {
+//     res.render('404', {
+//         title: "error",
+//         name: "shivam",
+//         errorMessage: "message 404 not found"
 
-    })
-})
+//     })
+// })
 
 
 
