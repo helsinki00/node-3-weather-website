@@ -1,7 +1,6 @@
 const express = require('express')
 const path = require('path')
 const hbs = require('hbs')
-const { request } = require('http')
 const app = express()
 const geocode = require('./utils/geocode')
 const weatherstack = require('./utils/weatherstack')
